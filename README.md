@@ -1,4 +1,4 @@
-# Discoursify - AI-Powered Group Discussion Platform
+# Discoursify - Elevating Your Communication Skills With AI
 
 A scalable, AI-powered Group Discussion platform built with a Microservices architecture.
 

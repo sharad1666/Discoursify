@@ -1,0 +1,93 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.cdac:ai-service >-------------------------
+[INFO] Building ai-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.0:clean (default-clean) @ ai-service ---
+[INFO] Deleting D:\Discoursify_Microservices\backend\ai-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ai-service ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 8 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ ai-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 23 source files with javac [debug parameters release 17] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/JwtAuthenticationFilter.java:[10,51] package org.springframework.security.authentication does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/JwtAuthenticationFilter.java:[11,49] package org.springframework.security.core.context does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/JwtAuthenticationFilter.java:[12,51] package org.springframework.security.core.authority does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[5,67] package org.springframework.security.config.annotation.web.builders does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[6,72] package org.springframework.security.config.annotation.web.configuration does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[7,40] package org.springframework.security.web does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[8,55] package org.springframework.security.web.authentication does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[15,2] cannot find symbol
+  symbol: class EnableWebSecurity
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[25,52] cannot find symbol
+  symbol:   class HttpSecurity
+  location: class com.cdac.gd.config.SecurityConfig
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[25,12] cannot find symbol
+  symbol:   class SecurityFilterChain
+  location: class com.cdac.gd.config.SecurityConfig
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[5,56] package org.springframework.web.socket.config.annotation does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[6,56] package org.springframework.web.socket.config.annotation does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[7,56] package org.springframework.web.socket.config.annotation does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[11,41] cannot find symbol
+  symbol: class WebSocketMessageBrokerConfigurer
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[10,2] cannot find symbol
+  symbol: class EnableWebSocketMessageBroker
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[20,40] cannot find symbol
+  symbol:   class StompEndpointRegistry
+  location: class com.cdac.gd.config.WebSocketConfig
+[INFO] 16 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.794 s
+[INFO] Finished at: 2026-02-01T11:21:32+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project ai-service: Compilation failure: Compilation failure: 
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/JwtAuthenticationFilter.java:[10,51] package org.springframework.security.authentication does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/JwtAuthenticationFilter.java:[11,49] package org.springframework.security.core.context does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/JwtAuthenticationFilter.java:[12,51] package org.springframework.security.core.authority does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[5,67] package org.springframework.security.config.annotation.web.builders does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[6,72] package org.springframework.security.config.annotation.web.configuration does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[7,40] package org.springframework.security.web does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[8,55] package org.springframework.security.web.authentication does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[15,2] cannot find symbol
+[ERROR]   symbol: class EnableWebSecurity
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[25,52] cannot find symbol
+[ERROR]   symbol:   class HttpSecurity
+[ERROR]   location: class com.cdac.gd.config.SecurityConfig
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/SecurityConfig.java:[25,12] cannot find symbol
+[ERROR]   symbol:   class SecurityFilterChain
+[ERROR]   location: class com.cdac.gd.config.SecurityConfig
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[5,56] package org.springframework.web.socket.config.annotation does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[6,56] package org.springframework.web.socket.config.annotation does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[7,56] package org.springframework.web.socket.config.annotation does not exist
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[11,41] cannot find symbol
+[ERROR]   symbol: class WebSocketMessageBrokerConfigurer
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[10,2] cannot find symbol
+[ERROR]   symbol: class EnableWebSocketMessageBroker
+[ERROR] /D:/Discoursify_Microservices/backend/ai-service/src/main/java/com/cdac/gd/config/WebSocketConfig.java:[20,40] cannot find symbol
+[ERROR]   symbol:   class StompEndpointRegistry
+[ERROR]   location: class com.cdac.gd.config.WebSocketConfig
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

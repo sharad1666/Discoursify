@@ -1,0 +1,9 @@
+version: "2"
+authtoken: 365scSjgTXadPmdhcMyk8Mts7pR_79RZymcCjYnmNd9ffNzwW
+tunnels:
+  backend:
+    proto: http
+    addr: http://localhost:8085
+  frontend:
+    proto: http
+    addr: https://localhost:5174

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discoursify</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    window.global = window;
+    console.log("Index.html loaded - Inline script executing");
+    window.onerror = function (msg, url, line) {
+      console.error("Global error:", msg, url, line);
+    };
+  </script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

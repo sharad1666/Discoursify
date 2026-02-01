@@ -1,0 +1,11 @@
+{
+    "topic": "Test Session",
+    "type": "public",
+    "hostId": "test@example.com",
+    "hostEmail": "test@example.com",
+    "timeLimit": 60,
+    "hasWaitingRoom": false,
+    "code": "123456",
+    "startTime": null,
+    "status": "SCHEDULED"
+}
